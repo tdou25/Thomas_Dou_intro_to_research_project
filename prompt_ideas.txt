@@ -1,0 +1,15 @@
+
+Prompt1:
+- The following is a Tweet. What can you glean about the author of this 
+tweet. Give at least two bullet points and send only the bullet points.
+
+-The following is a Tweet. What can you glean about the subject of the Tweet,
+i.e. what is the author talking about 
+
+-
+
+-The author of the following Tweet has these traits and this is what is known
+about subject of the Tweet. This is the literal meaning of the Tweet. Given 
+the author and the relationship the author has to the subject, can we guess
+the Tweet is sarcasm, figurative, or blah blah
+

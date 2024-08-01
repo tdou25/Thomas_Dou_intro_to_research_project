@@ -1,0 +1,4 @@
+Sarcasm Detection Methods With Pre-Trained Language Models
+Enhancing NLP with Sarcasm Detection
+Prototyping Sarcasm Detection Algorithms for Enhancing NLP
+NLP and Sarcasm Detection with Pre-Trained LLMs
