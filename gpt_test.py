@@ -18,7 +18,7 @@ if __name__ == "__main__":
                     'Oh no that's cool.....sure pain! Come on in!! I was ONLY about to sleep!!'",
             }
         ],
-        model="gpt-3.5-turbo",
+        model="gpt-4o",
     )
 
     for thing in chat_completion:
