@@ -1,0 +1,36 @@
+400 sarcastic, 400 figurative, 400 regular
+
+*****GPT-3.5 prompt*****
+TOTAL CORRECT: 738
+
+FALSE NEGATIVES (expected -> actual):
+sarcasm -> figurative: 107
+sarcasm -> regular: 75
+figurative -> sarcasm: 119
+figurative -> regular: 85
+regular -> sarcasm: 11
+regular -> figurative: 60
+
+*****GPT-4o prompt*****
+
+TOTAL CORRECT: 609
+
+FALSE NEGATIVES (expected -> actual):
+sarcasm -> figurative: 3
+sarcasm -> regular: 135
+figurative -> sarcasm: 226
+figurative -> regular: 133
+regular -> sarcasm: 37
+regular -> figurative: 28
+
+*****Multi prompt*****
+
+TOTAL CORRECT: 579
+
+FALSE NEGATIVES (expected -> actual):
+sarcasm -> figurative: 32
+sarcasm -> regular: 25
+figurative -> sarcasm: 289
+figurative -> regular: 34
+regular -> sarcasm: 87
+regular -> figurative: 153

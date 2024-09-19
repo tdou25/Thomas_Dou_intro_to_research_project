@@ -1,5 +1,5 @@
 if __name__ == "__main__":
-    with open("test_prompt_output.csv", "r") as file:
+    with open("multi_prompt_output.csv", "r") as file:
         lines = file.readlines()
 
     total_correct = 0

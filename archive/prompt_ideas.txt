@@ -1,0 +1,28 @@
+
+Prompt1:
+- The following is a Tweet. What can you glean about the author of this 
+tweet. Give at least two bullet points and send only the bullet points.
+
+-The following is a Tweet. What can you glean about the subject of the Tweet,
+i.e. what is the author talking about 
+
+-
+
+-The author of the following Tweet has these traits and this is what is known
+about subject of the Tweet. This is the literal meaning of the Tweet. Given 
+the author and the relationship the author has to the subject, can we guess
+the Tweet is sarcasm, figurative, or blah blah
+
+
+
+"What information can be gleaned about the author of the following Tweet?\
+Please respond with any attributes/actions/experiences of the author as a bulleted list where each\
+statement you make about the author starts with a '-'. Try to come up with at least 3: \
+'Oh no that's cool.....sure pain! Come on in!! I was ONLY about to sleep!!'",
+
+"Reading following Tweet STRICTLY literally (as opposed to figuratively or sarcastically if you suspect there is such language in this Tweet), \
+summarize or rephrase this Tweet with the literal meaning. Do not mention any information about the intent of the author, only express the Tweet's literal meaning:\
+'Oh no that's cool.....sure pain! Come on in!! I was ONLY about to sleep!!'",
+
+"We are attempting to determine if a Tweet is sarcastic, figurative (not sarcastic, but not literal), or neither (regular) without seeing the actual Tweet. Based on the Tweet, we know the following about the author:\n" + traits_content. This is the LITERAL meaning of the Tweet, read as though it had no sarcasm or figurative language (even if there is):" + literal_contents + 
+verdict_prompt += "Please express your verdict with a single all lowercase word: either 'sarcasm', 'figurative', or 'regular'. Look for partial contradiction between traits and literal meaning for figurative language and total contradiction for sarcasm."
